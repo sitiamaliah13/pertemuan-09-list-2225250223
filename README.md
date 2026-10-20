@@ -1,46 +1,56 @@
-# Pertemuan 09 - List/Array
+# Pertemuan 09 - List dan Pengolahan Data Numerik
 
-**Nama:** Siti Amaliah  
-**NIM:** 2225250223  
-**Kelas:** 3E  
-
-## Materi
-List/Array dan Pengolahan Data Numerik Sederhana.
+Nama: Siti Amaliah  
+NIM: 2225250223  
+Kelas: 3E  
 
 ## Tujuan
-Pada pertemuan ini mempelajari cara membuat dan mengakses list, menggunakan indeks dan slicing, memanipulasi list, melakukan pengolahan data numerik sederhana, menggunakan perulangan, serta membuat fungsi statistik sederhana.
 
-## Latihan
+Menggunakan list Python untuk menyimpan, mengakses, memanipulasi, dan mengolah data numerik.
 
-Latihan yang dikerjakan:
+## Struktur Program
 
-1. `01_buat_list.py` - Membuat list dan menghitung banyak data.
-2. `02_indeks_slicing.py` - Menggunakan indeks dan slicing.
-3. `03_manipulasi_list.py` - Melakukan perubahan dan manipulasi list.
-4. `04_agregasi_nilai.py` - Menghitung total, rata-rata, nilai minimum, dan maksimum.
-5. `05_filter_kelulusan.py` - Menampilkan nilai yang memenuhi batas kelulusan.
-6. `06_fungsi_statistik.py` - Membuat fungsi untuk menghitung rata-rata.
+- latihan/01_buat_list.py
+- latihan/02_indeks_slicing.py
+- latihan/03_manipulasi_list.py
+- latihan/04_agregasi_nilai.py
+- latihan/05_filter_kelulusan.py
+- latihan/06_fungsi_statistik.py
+- praktik/analisis_nilai_mahasiswa.py
 
-## Pengujian
+## Cara Menjalankan
 
-Setiap program dijalankan melalui terminal VS Code untuk memastikan kode dapat berjalan dan menghasilkan output sesuai dengan yang diharapkan.
+Jalankan program melalui VS Code menggunakan Python.
 
-## Kuis Formatif
+Contoh:
 
-Kuis Formatif Pertemuan 09 (Kuis 3) dikerjakan sebagai evaluasi pemahaman materi List/Array.
+python praktik/analisis_nilai_mahasiswa.py
 
-## Struktur Folder
+## Algoritma
 
-```text
-pertemuan-09-list-2225250223/
-│
-├── latihan/
-│   ├── 01_buat_list.py
-│   ├── 02_indeks_slicing.py
-│   ├── 03_manipulasi_list.py
-│   ├── 04_agregasi_nilai.py
-│   ├── 05_filter_kelulusan.py
-│   └── 06_fungsi_statistik.py
-│
-├── README.md
-└── .gitignore
+1. Memasukkan data nilai mahasiswa ke dalam list.
+2. Menghitung jumlah data menggunakan len().
+3. Menghitung total nilai menggunakan sum().
+4. Menghitung rata-rata nilai.
+5. Menentukan nilai minimum dan maksimum.
+6. Menentukan nilai yang memenuhi batas kelulusan.
+7. Menghitung jumlah mahasiswa yang lulus dan belum lulus.
+8. Menampilkan hasil analisis nilai mahasiswa.
+
+## Test Case
+
+| Data Nilai | Rata-rata | Minimum | Maksimum | Jumlah Lulus |
+|---|---:|---:|---:|---:|
+| [78, 55, 90, 67, 60, 82, 45, 71, 88, 59] | 69.50 | 45 | 90 | 7 |
+
+Batas kelulusan: 60
+
+## Refleksi
+
+Pada pertemuan ini saya memahami bahwa list dapat digunakan untuk menyimpan banyak data dalam satu variabel sehingga data lebih mudah diakses dan diolah. Saya juga memahami penggunaan indeks, slicing, manipulasi list, perulangan, serta fungsi seperti len(), sum(), min(), dan max().
+
+Kesalahan yang perlu diperhatikan adalah penggunaan indeks yang tidak tersedia dan pembagian dengan nol ketika menghitung rata-rata pada list kosong.
+
+## Sumber/Bantuan
+
+Bahan Ajar Pertemuan 09 - List dan Pengolahan Data Numerik dalam Python, Algoritma dan Pemrograman, S1 Pendidikan Matematika FKIP Untirta.
